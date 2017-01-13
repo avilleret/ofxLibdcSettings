@@ -1,0 +1,7 @@
+openFrameworks addon to adjust IIDC devices parameters
+
+This addon depends on libdc1394, just run :
+
+    sudo apt install libdc1394-dev
+
+to install it on Debian based system.

@@ -1,0 +1,6 @@
+[submodule "example/ofxLibdc"]
+	path = example/ofxLibdc
+	url = https://github.com/avilleret/ofxLibdc.git
+[submodule "example/ofxDatGui"]
+	path = example/ofxDatGui
+	url = https://github.com/avilleret/ofxDatGui.git
