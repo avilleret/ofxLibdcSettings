@@ -65,8 +65,6 @@ bool ofxLibdcSettings::setup(dc1394camera_t *device){
 
     m_dccamera = device;
 
-    ofSetLogLevel(OF_LOG_VERBOSE);
-
     parameters = new ofxDatGuiFolder("dc1394 parameters of " + string(m_dccamera->model));
 
     parameters->onButtonEvent(this, &ofxLibdcSettings::onButtonEvent);
