@@ -15,7 +15,6 @@
 #include <sys/ioctl.h>
 #include <sys/stat.h>
 #include <sys/types.h>
-#include <linux/types.h>
 #include "ofLog.h"
 
 string ofxLibdcSettings::LOG_NAME = "ofxLibdcSettings";
